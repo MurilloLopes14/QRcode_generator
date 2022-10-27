@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./ASSETS/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <script src="./JS/script.js" defer></script>
+    <title>QRcode Generator</title>
+  </head>
+  <body>
+    <section id="container" class="">
+      <header id="qr_header">
+        <h1>Gerador de QRcode</h1>
+        <p>Insira uma URL ou texto para criar um QRcode</p>
+      </header>
+      <div id="qr_form">
+        <p id="alert" class="hide">Por favor, insira algum texto ou URL.</p>
+        <input
+          type="text"
+          placeholder="Digite a URL ou texto"
+          id="qrcode_value"
+        />
+        <button class="btn">Gerar QR code</button>
+      </div>
+      <div id="qr_code">
+        <img src="./ASSETS/qrcode.png" alt="QRcode" />
+      </div>
+    </section>
+  </body>
+</html>
