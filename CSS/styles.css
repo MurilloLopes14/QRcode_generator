@@ -130,20 +130,6 @@ img {
   opacity: 1;
 }
 
-/* Mobile Screen */
-@media (max-width: 450px) {
-  body {
-    padding-top: 50px;
-    align-items: flex-start;
-  }
-
-  #container {
-    width: 350px;
-    height: 350px;
-    margin: 0 20px;
-  }
-}
-
 /* Tablet Screen */
 @media (max-width: 780px) {
   #container {
@@ -161,5 +147,23 @@ img {
 
   #qr_header p {
     font-size: 1.2rem;
+  }
+}
+
+/* Mobile Screen */
+@media (max-width: 450px) {
+  body {
+    padding-top: 50px;
+    align-items: flex-start;
+  }
+
+  #container {
+    width: 350px;
+    height: 450px;
+    margin: 0 20px;
+  }
+
+  #container.active {
+    height: 650px;
   }
 }
